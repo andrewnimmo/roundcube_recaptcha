@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__ . '/vendor/autoload.php';
+
 class recaptcha extends rcube_plugin
 {
     public function init()
